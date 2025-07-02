@@ -40,17 +40,17 @@
     - The features distance, preparation time and experience of employees have a relatively high variability
 
     <img 
-        src="model_pipeline/figures/hist_distance.png" 
+        src="figures/hist_distance.png" 
         alt="Distance Histogram" 
         width="30%" 
     />
     <img 
-        src="model_pipeline/figures/hist_prep_time.png" 
+        src="figures/hist_prep_time.png" 
         alt="Preparation time" 
         width="31%" 
     />
     <img 
-        src="model_pipeline/figures/box_courier_exp.png" 
+        src="figures/box_courier_exp.png" 
         alt="Box plot employee experience" 
         width="26.5%" 
     />
@@ -61,7 +61,7 @@
     - The preferred means of transportation is a bike, as opposed to a car, which is less commonly used.
 
         <img 
-            src="model_pipeline/figures/categorical_plots.png" 
+            src="figures/categorical_plots.png" 
             alt="Cat bar plots" 
             width="60%" 
         />
@@ -74,7 +74,7 @@
     - Time_of_Day_ord - Delivery_Time_min: no trend across the time of the day to deliver.
 
         <img 
-            src="model_pipeline/figures/cor_matrix.png" 
+            src="figures/cor_matrix.png" 
             alt="Distance Histogram" 
             width="60%" 
         />
@@ -83,7 +83,7 @@
 The Histogram of delivery time (target variable) is skewed to the right, confirming the presence of outliers. The box plot displays this more clearly. There are unusual times (above 120 mins), indicating isolated events. Best to remove them. 
 
 <img 
-    src="model_pipeline/figures/delivery_time.png" 
+    src="figures/delivery_time.png" 
     alt="Delivery time outliers" 
     width="60%" 
 />
