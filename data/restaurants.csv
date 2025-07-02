@@ -1,0 +1,5 @@
+﻿restaurant_id,area,name,cuisine_type,avg_preparation_time_min
+R1,A,La Esquina Bistro,French Bistro,25
+R2,B,Sunset Grillhouse,American BBQ,30
+R3,C,Bella Cucina,Italian Trattoria,20
+R4,D,Spice Route Kitchen,Indian Fusion,35
